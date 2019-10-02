@@ -21,6 +21,9 @@ dalvik.vm.dex2oat64.enabled=true
 vendor.bluetooth.soc=cherokee
 ro.vendor.fm.use_audio_session=true
 
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
