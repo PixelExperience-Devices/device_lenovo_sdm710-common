@@ -109,6 +109,11 @@ ndk::ScopedAStatus Power::setMode(Mode type, bool enabled) {
         PowerSessionManager::getInstance()->updateHintMode(toString(type), enabled);
     }
     switch (type) {
+        case Mode::DOUBLE_TAP_TO_WAKE:
+            {
+            sysfs_write("/sys/class/touch/tp_dev/gesture_on", enabled ? "1" : "0");
+            }
+            break;
         case Mode::LOW_POWER:
             break;
         case Mode::SUSTAINED_PERFORMANCE:
@@ -122,11 +127,6 @@ ndk::ScopedAStatus Power::setMode(Mode type, bool enabled) {
                 break;
             }
             [[fallthrough]];
-        case Mode::DOUBLE_TAP_TO_WAKE:
-            {
-            sysfs_write("/sys/class/touch/tp_dev/gesture_on", enabled ? "1" : "0");
-            }
-            break;
         case Mode::FIXED_PERFORMANCE:
             [[fallthrough]];
         case Mode::EXPENSIVE_RENDERING:
