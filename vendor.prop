@@ -134,3 +134,6 @@ persist.vendor.radio.enableadvancedscan=false
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM710
+
+# Zygote
+zygote.critical_window.minute=10
