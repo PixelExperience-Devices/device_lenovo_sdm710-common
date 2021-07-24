@@ -1,8 +1,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.lenovo_kunlun2",
-    init_rc: ["android.hardware.light@2.0-service.lenovo_kunlun2.rc"],
+    name: "android.hardware.light@2.0-service.lenovo_sdm710",
+    init_rc: ["android.hardware.light@2.0-service.lenovo_sdm710.rc"],
     srcs: ["service.cpp", "Light.cpp"],
     vendor: true,
     shared_libs: [

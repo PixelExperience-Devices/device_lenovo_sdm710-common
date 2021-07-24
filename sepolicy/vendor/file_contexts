@@ -7,7 +7,7 @@
 /data/display(/.*)?      u:object_r:display_data_file:s0
 
 # Custom HALs
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.lenovo_kunlun2                     u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.lenovo_sdm710                      u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power-service\.lenovo                                  u:object_r:hal_power_default_exec:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-fpcservice                u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.atrace@1.0-service\.pixel                              u:object_r:hal_atrace_default_exec:s0
