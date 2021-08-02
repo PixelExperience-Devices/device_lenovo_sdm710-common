@@ -102,14 +102,6 @@ ro.vendor.bluetooth.wipower=false
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 
-# Dalvik
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heapstartsize=8m
-dalvik.vm.heapsize=512m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapmaxfree=8m
-
 # Display
 ro.vendor.display.cabl=2
 vendor.display.enable_default_color_mode=1

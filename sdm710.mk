@@ -9,8 +9,11 @@ $(call inherit-product-if-exists, vendor/lenovo/sdm710-common/sdm710-common-vend
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2244
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Device uses high-density artwork where available
