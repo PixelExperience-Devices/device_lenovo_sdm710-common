@@ -26,7 +26,7 @@ cc_binary {
     vintf_fragments: ["aidl/android.hardware.power-service.lenovo.xml"],
     vendor: true,
     shared_libs: [
-        "android.hardware.power-V1-ndk_platform",
+        "android.hardware.power-V1-ndk",
         "libbase",
         "libcutils",
         "liblog",
@@ -34,7 +34,7 @@ cc_binary {
         "libbinder_ndk",
         "libdisppower-lenovo",
         "libperfmgr",
-        "pixel-power-ext-V1-ndk_platform",
+        "pixel-power-ext-V1-ndk",
     ],
     srcs: [
         "aidl/service.cpp",
