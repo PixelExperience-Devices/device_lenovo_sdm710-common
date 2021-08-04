@@ -9,8 +9,6 @@ $(call inherit-product-if-exists, vendor/lenovo/sdm710-common/sdm710-common-vend
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-include build/make/target/product/iorap_large_memory_config.mk
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
