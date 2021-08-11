@@ -4,6 +4,11 @@ persist.camera.             u:object_r:camera_prop:s0
 persist.vendor.camera.      u:object_r:camera_prop:s0
 sys.camera.                 u:object_r:camera_prop:s0
 
+# Fingerprint
+gf.debug.dump_bigdata_data  u:object_r:vendor_fp_prop:s0
+vendor.fps_hal.             u:object_r:vendor_fp_prop:s0
+persist.vendor.runin.fphwid u:object_r:vendor_fp_prop:s0
+
 # PowerHAL
 vendor.powerhal.state      u:object_r:vendor_power_prop:s0
 vendor.powerhal.audio      u:object_r:vendor_power_prop:s0
