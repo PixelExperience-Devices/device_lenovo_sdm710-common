@@ -355,6 +355,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
@@ -369,7 +370,7 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
-    WifiOverlay
+    libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
