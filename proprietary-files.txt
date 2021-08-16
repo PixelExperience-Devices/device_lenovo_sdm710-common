@@ -959,9 +959,6 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
--product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/bin/hw/android.hardware.sensors@2.0-service
 vendor/etc/init/android.hardware.sensors@2.0-service.rc
 vendor/lib/android.hardware.sensors@2.0-impl.so
