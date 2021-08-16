@@ -2,8 +2,6 @@ BOARD_VENDOR := lenovo
 
 COMMON_PATH := device/lenovo/sdm710-common
 
-BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
