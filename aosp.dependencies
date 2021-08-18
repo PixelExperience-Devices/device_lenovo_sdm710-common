@@ -1,8 +1,19 @@
 [
+ {
+      "repository":  "kernel_lenovo_sdm710",
+      "target_path": "kernel/lenovo/sdm710",
+      "branch": "eleven"
+  },
   {
     "remote": "pixel-devices-blobs",
     "repository": "vendor_lenovo_sdm710-common",
     "target_path": "vendor/lenovo/sdm710-common",
+    "branch": "eleven"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_lenovo-firmware",
+    "target_path": "vendor/lenovo-firmware",
     "branch": "eleven"
   }
 ]
