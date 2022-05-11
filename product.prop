@@ -15,6 +15,7 @@ persist.vendor.dpmhalservice.enable=1
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # FM
 vendor.bluetooth.soc=cherokee
