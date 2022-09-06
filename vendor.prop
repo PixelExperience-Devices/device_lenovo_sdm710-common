@@ -105,6 +105,9 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 # Display
 ro.vendor.display.cabl=2
 vendor.display.enable_default_color_mode=1
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
