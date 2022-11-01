@@ -27,6 +27,9 @@ ro.opengles.version=196610
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
+# IMS
+ro.telephony.block_binder_thread_on_incoming_calls=false
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
