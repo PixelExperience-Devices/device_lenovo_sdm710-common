@@ -160,4 +160,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/lenovo/sdm710-common/BoardConfigVendor.mk
+include vendor/lenovo/sdm710-common/BoardConfigVendor.mk
