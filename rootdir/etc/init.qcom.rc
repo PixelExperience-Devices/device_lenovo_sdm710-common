@@ -1121,13 +1121,3 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     socket audio_hw_socket seqpacket 0666 system system
     onrestart restart audioserver
-
-service vendor.thermal-hal-2-0 /vendor/bin/hw/android.hardware.thermal@2.0-service.pixel
-    override
-    interface android.hardware.thermal@1.0::IThermal default
-    interface android.hardware.thermal@2.0::IThermal default
-    class hal
-    user system
-    group system
-    priority -20
-    disabled
