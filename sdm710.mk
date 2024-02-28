@@ -102,9 +102,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
-    BluetoothQti \
-    libldacBT_dec \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
@@ -214,9 +211,7 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
-    android.hidl.manager@1.0_system \
     android.hidl.allocator@1.0 \
     android.hidl.allocator@1.0.vendor \
     libhidltransport \
@@ -349,8 +344,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \
     android.hardware.power@1.2.vendor \
-    android.hardware.power-service.lenovo-sdm710-libperfmgr \
-    android.hardware.power.stats@1.0-service.lenovo
+    android.hardware.power-service.lenovo-sdm710-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -440,10 +434,6 @@ PRODUCT_PACKAGES += \
 # Thermal engine
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
-# Tracing
-PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service.pixel
 
 # USB
 PRODUCT_PACKAGES += \
