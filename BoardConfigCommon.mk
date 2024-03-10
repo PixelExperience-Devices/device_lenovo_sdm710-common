@@ -136,6 +136,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-03-01
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
