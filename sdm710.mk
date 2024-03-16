@@ -341,10 +341,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
-# PocketMode
-PRODUCT_PACKAGES += \
-    LenovoPocketMode
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \
